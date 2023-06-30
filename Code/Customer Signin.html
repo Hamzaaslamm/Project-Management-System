@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<style>
+		body{
+			background-image: url("https://source.unsplash.com/user/erondu/2000x1990");
+			 background-repeat: no-repeat;
+			 background-size:  cover;
+		}
+
+		fieldset{
+			background-image: url('z.jpg');
+
+			 border : 5px solid #808000;
+			 height: 200px;
+			width: 30%;
+    		padding: 50px;
+    		margin-left: 390px;
+   	 		margin-top: 100px;
+    		border-radius: 50px;
+    		color:white;
+
+    opacity: 0.8;
+    transition: width 2s;
+		}
+		label , input, button{
+			margin-left: 30px;
+
+		}
+		button{
+			background-color: lightgreen;
+			width: 150px;
+			height: 35px;
+			margin-left: 30px;
+
+			
+		}
+		input{
+			width: 300px;
+			height: 25px;
+			border: 2px solid lightgreen;
+		}
+		 legend{
+		 	color : #50ad1d;
+		 	font-size: 30px;
+		 	font-family: Arial Black;
+		 	background: white;
+		 }
+		 h1{
+		 	color: #50ad1d;
+		 	font-family: Arial Black;
+		 	background-color: #CCD1D1;
+		 	width: 320px;
+		 	margin-left: 500px;
+		 	text-align: center;
+
+		 }
+
+
+</style>	
+<body>
+	<h1>Coustmer Sign In</h1>
+
+<fieldset>
+ 
+ 		<legend><b>Sign In</b></legend>
+<form action="CustomerSignin.php" method="POST">
+
+<label>Email:<br></label>
+<input type="Email" name="email" required="" placeholder="abc@mail.com"><br><br>
+<label>Password:<br></label>
+<input type="Password" name="password" required="" placeholder="Enter your password"><br><br>
+
+<button type="Submit" style="width: 65px"><a href="Home.html" style="text-decoration: none; color: black;">Back</a></button>
+<button type="Submit" style="margin-left: 50px;">Sign In</button>
+</form>
+
+</fieldset>
+
+</body>
+</html>

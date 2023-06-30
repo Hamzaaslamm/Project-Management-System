@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		body{
+			background-image:  linear-gradient(#0c7feb, #021e38 , white);
+			background-size: cover;
+			background-repeat:  no-repeat;
+			height: 890px;
+		}
+
+		.w{
+			 background-image: url('re.jpg');
+			height: 550px;
+			width: 500px;
+			border-radius: 20px;
+			padding: 20px 45px;
+			color: white;
+			font-size: 20px;
+			margin-left: 370px;
+			margin-top:  90px;
+			opacity:0.8;
+			box-shadow: 10px 10px 15px;
+				}
+		 input{
+		 	height: 30px;
+		 	width: 400px;
+		 	 text-align: center;
+
+		 }
+		  button{
+		  	height: 35px;
+		  	width: 100px;
+		  	margin-left: 400px;
+		  }
+		  button:hover{
+		  	background: black;
+		  	color: white;
+		  	    
+    box-shadow: 10px 8px 10px grey;
+		  }
+		   .b{
+  	height: 30px;
+  	 width: 100px;
+  	border-radius: 10px;
+  	  background: black;
+  	  color: white; 
+  	  margin-left: 20px; 
+  	  list-style-type: none;
+
+
+  }
+  .s{
+  	 height: 30px;
+  	 width: 100px;
+  	 margin-left: 170px;
+  	 border-radius: 10px;
+  	  background: black;
+  	  color: white;
+
+  }
+
+
+	</style>
+</head>
+<body>
+<div class="w">
+Project Name:<br>
+<form method="POST" action="AssignTask.php">
+<input type="text" name="Project_Name" placeholder="Enter project name"><br><br>
+Task Name:<br>
+<input type="text" name="Task_Name" placeholder="Enter the name of the task"><br><br>
+
+Employee1:<br>
+<input type="text" name="Employee1" placeholder="Enter the task for employee1"><br><br>
+Employee2:<br>
+<input type="text" name="Employee2" placeholder="Enter the task for employee2"><br><br>
+Employee3:<br>
+<input type="text" name="Employee3" placeholder="Enter the task for employee3"><br><br>
+Employee4:<br>
+<input type="text" name="Employee4" placeholder="Enter the task for employee4"><br>
+<br>
+<button class="b" type="submit"> <a href="Manager Dashboard.html"> Back </a> </button>
+<button class="s" type="submit" style="">Assign Task</button>
+</form>
+
+</div>
+</body>
+</html>

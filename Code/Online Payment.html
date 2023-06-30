@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	 body{
+	 	 background-image: radial-gradient(#32a6a8, #69b3b5, #065052);	
+	 }
+		.card-details{
+
+			height: 400px;
+			width: 50%;
+			 border: 5px double blue;
+			  margin: 150px 300px;
+			   padding: 40px 40px;
+			 background-image:  radial-gradient(white, black , grey);
+
+			     font-size: 20px;
+			     color: white;
+
+			 	}
+			 	h3{
+			 		text-align: center;
+			 	}
+
+			 	 button{
+			 	 	margin-left: 100px;
+			 	 	height: 35px;
+			 	 	width: 150px;
+			 	 	font-size: 18px;
+			 	 }
+			 	  input{
+			 	  	height: 35px;
+			 	  	width: 400px;
+			 	  }
+
+
+
+	</style>
+</head>
+<body>
+<form action="onlinepay.php" method="POST">	<div class="card-details">
+		<h3>Pay using Credit or Debit card</h3>
+
+		<table action = "p.php">
+			<tr>
+		<td><label> Card Number: </label></td>
+		<td><input type="number" name = "card_number" placeholder="###-###-###" required></td><br></tr>
+		<tr><td><label> Expiry Date: </label></td>
+		<td><input type="date" name = "Expiry_date" placeholder="DD-MM-YY" required></td><br>
+		</tr>
+		<tr><td><label> Amount: </label></td>
+		<td><input type="number" name = "Amount" placeholder="xxx" required></td><br>
+		</tr>
+		<tr>
+		<td><label> Card Holder name: </label></td>
+		<td><input type="text" name = "holder_name" placeholder="Enter your Name" required></td><br>
+	
+		</tr>
+	</table>
+	<br>
+		<button type="Submit"><a href="Customer Dashboard.html" style="text-decoration: none; color: black;">Back</a></button>
+
+		<button type="submit"> Pay </button>
+	
+	
+	</div>
+</form>
+
+
+</body>
+</html>

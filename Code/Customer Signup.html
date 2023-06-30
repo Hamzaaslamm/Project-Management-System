@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<style>
+		body{
+			background-image: url("https://source.unsplash.com/user/erondu/2000x1990");
+			 background-repeat: no-repeat;
+			 background-size:  cover;
+		}
+
+		fieldset{
+			background-image: url('z.jpg');
+
+			 border : 5px solid #808000;
+			 height: 527px;
+			width: 30%;
+    		padding: 50px;
+    		margin-left: 390px;
+   	 		margin-top: 100px;
+    		border-radius: 50px;
+    		color:white;
+
+    opacity: 0.8;
+    transition: width 2s;
+		}
+		label , input, button{
+			margin-left: 30px;
+
+		}
+		button{
+			background-color: lightgreen;
+			width: 130px;
+			height: 35px;
+			margin-left: 30px;
+			display: inline;
+
+			
+		}
+		input{
+			width: 300px;
+			height: 25px;
+			border: 2px solid lightgreen;
+		}
+		 legend{
+		 	color : #50ad1d;
+		 	font-size: 30px;
+		 	font-family: Arial Black;
+		 	background: white;
+		 }
+
+
+</style>
+<body>
+
+<fieldset>
+ 
+ 		<legend><b>Create Your Account</b></legend>
+<form action="CustomerSignUp.php" method="POST">
+<label>Full Name:<br></label>
+<input type="text" name="cname" required="" placeholder="Enter first name"><br><br>
+<label>Email:<br></label>
+<input type="Email" name="email" required="" placeholder="abc@mail.com"><br><br>
+<label>CNIC:<br></label>
+<input type="text" name="cnic" required="" placeholder="Enter CNIC"><br><br>
+<label>Phone Number:<br></label>
+<input type="text" name="phone" required="" placeholder="Enter Phone Number"><br><br>
+<label>Address:<br></label>
+<input type="text" name="address" required="" placeholder="Enter Address"><br><br>
+<label>Password:<br></label>
+<input type="Password" name="pass" required="" placeholder="Enter your password"><br><br>
+<label>Confirm Password:<br></label>
+<input type="Password" name="" required="" placeholder="Re-enter your password"><br>
+<br>
+<button type="Submit" style="width: 65px"><a href="Home.html" style="text-decoration: none; color: black;">Back</a>
+</button>
+<button type="Submit" style="margin-left: 50px;">Sign Up</button>
+
+</form>
+
+</fieldset>
+
+</body>
+</html>

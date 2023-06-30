@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+
+ body{
+ 	background-image: linear-gradient(skyblue ,darkblue ,#04104f);
+ }
+		.t{
+			height: 900px; 
+			width: 700px;
+			 margin: 20px 100px;
+			 padding:20px 50px;
+			 background: #783a4c;
+			 color: white;
+			 font-size: 18px;
+			box-shadow: 10px 10px 10px black;
+			 opacity: 0.8;
+
+		}
+		input{
+			height: 20px;
+			width: 300px;
+		}
+
+		button{
+			height: 40px;
+			width: 100px;
+			margin-left: 100px;
+			background: red;
+			color: white;
+		}
+
+		button:hover{
+			box-shadow: 10px 10px 10px black;
+			color: white;
+			background: black;
+		}
+
+
+</style>
+
+
+</head>
+<body>
+<div class="t">
+<form action="ManagerAdd.php" method="POST">
+Project Name:<br>
+<input type="text" name="project" placeholder="Enter project name">
+<br>
+
+<label><b>Enter number of deliverables:</b></label><br>
+<input type="number" name="deli" placeholder="1,2,3"><br>
+
+	<b>Select Package</b><br>
+<label>Basic</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="radio" id="Basic" name="pkg" ><br>
+<label>Standard</label>&nbsp
+<input type="radio" id="Standard" name="pkg" ><br>
+<label>Premium</label>&nbsp
+<input type="radio" id="Premium" name="pkg" ><br><br>
+
+	<label><b>Enter Phase:</b></label><br>
+	<input type="text" name="phas" placeholder="Pending,Running,Complete"><br>
+
+	<b>Start Date</b><br>
+	<input type="Date" name="sdate"><br>
+	<b>End Date</b><br>
+	<input type="Date" name="edate"><br>
+
+	<b>Total Amount</b><br>
+	<input type="number" name="amount" placeholder="Enter amount"><br>
+	<b>Payed Amount</b><br>
+	<input type="number" name="pamount" placeholder="Enter amount"><br>
+		Progress<br>
+	<input type="text" name="prog" placeholder="Enter progress in percentage"><br>
+
+		<label><b>Enter Requirenments:</b></label><br>
+		<textarea rows="5" cols="50" name="requi"id="req"></textarea><br>
+
+		<label for="Description"><b>Enter Description:</b></label><br>
+		<textarea rows="5" cols="50" name="desc"id="Description"></textarea><br><br>
+
+		<button type="submit" class="submit-now-btn">Update</button>
+
+ <button type="Submit" style="width: 65px; margin-top:-340px; margin-left: 390px;"><a href="Manager Dashboard.html" style="text-decoration: none; color: white;">Back</a></button>
+
+</form>
+
+</div>
+</body>
+</html>

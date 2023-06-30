@@ -1,0 +1,85 @@
+body{
+    background-image: url('o.png');
+	margin-left: -1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+	.w{
+		background-image: url('https://source.unsplash.com/random/1367*300');
+		margin-top: -10px;
+        background-repeat: no-repeat;
+		background-size: cover;
+		height: 300px;
+	 color: black;	width: 100.85%;
+
+	}
+    .navbar{
+            background-color: black;
+          
+            box-shadow: 5px 5px 10px #78c718;
+          }
+            .navbar li{
+            float:left;
+            list-style: none; 
+            margin: 13px 20px;
+
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+ .search , .b{
+            float: right;
+            color: white;
+            padding: 12px 32px;
+        }
+         header{
+            margin: -16px;
+            position: fixed;
+            width: 100.85%;
+             background: black;
+
+         }
+         .b{
+
+            
+            text-decoration: none;
+             color: black;
+              padding: 3px, 3px;  
+
+         }
+
+.pakage{
+    height: 450px;
+    width: 80%;
+    margin-left: 190px;
+}
+    .h{
+    height: 400px;
+    width: 30%;
+    border: 3px solid #00FFFF;
+    display: inline;
+    float: left;
+    margin: 13px;
+    border-radius: 20px;
+    background:#78c718;
+    opacity: 0.5;
+     color: black;
+
+    }
+    .h:hover{
+
+    
+        cursor:  pointer;
+    box-shadow: 10px 10px 15px #00FFFF;
+    
+
+
+    }
